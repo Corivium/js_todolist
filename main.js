@@ -30,7 +30,6 @@ function createListElement() {
 
 
     // Create Delete Button
-
     var deleteBtn = document.createElement('button'); // Creates element
     deleteBtn.appendChild(document.createTextNode('X')); // Creates X text in button
     li.appendChild(deleteBtn); // Append the delete button to an li
